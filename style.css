@@ -1,0 +1,57 @@
+/*========= レイアウトのためのCSS ===============*/
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .wrapper{
+    position: relative;
+  }
+  
+  a{
+    color: #fff;
+  }
+  
+  a:hover,
+  a:active{
+    text-decoration: none;
+  }
+  
+  .container{
+    background:#555;
+  }
+  
+  .container p{
+    padding: 300px 0; 
+    text-align: center;
+    color: #fff;
+  }
+  
+/*スライダー*/
+
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.slider-item h1, .slider-item h2, .slider-item p {
+  margin-top: 10%; /* 必要に応じてマージンをリセット */
+}
+
+.slider-item h1 {
+  font-size: 24px; /* 適切なフォントサイズに調整 */
+}
+
+.slider-item h2 {
+  font-size: 20px; /* 適切なフォントサイズに調整 */
+  margin-top: 10px; /* タイトルと説明文の間のマージンを調整 */
+}
+
+.slider-item p {
+  font-size: 16px; /* 適切なフォントサイズに調整 */
+  margin-top: 10px; /* 説明文の上部マージンを調整 */
+}
